@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>bootstrap tab with onclick step effect </title>
-  
+ <!--Load D3 from source website-->
+<script src="http://d3js.org/d3.v3.min.js"></script> 
+<!--Load D3 from local machine-->
+<script type="text/javascript" src="d3.min.js"></script>
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
@@ -57,24 +60,36 @@
             <div class="design-process-content">
               <h3 class="semi-bold">Data Scrapping</h3>
               <p>Interactive ML Regression model.</p>
+              <div id="body">
+                <script src="js/pie.js"></script>
+              </div>
             </div>
           </div>
           <div role="tabpanel" class="tab-pane" id="optimization">
             <div class="design-process-content">
               <h3 class="semi-bold">Optimization</h3>
-             <p>Interactive ML Regression model.</p>
-               </div>
+              <p>Interactive ML Regression model.</p>
+              <div id="chart">
+                <script src="js/animatedBar.js"></script>
+              </div>
+            </div>
           </div>
           <div role="tabpanel" class="tab-pane" id="content">
             <div class="design-process-content">
               <h3 class="semi-bold">Content</h3>
-              <p>Interactive ML Regression model.</p>             
+              <p>Interactive ML Regression model.</p>  
+              <div id="body1">
+                <script src="js/dots.js"></script>
               </div>
+            </div>
           </div>
           <div role="tabpanel" class="tab-pane" id="reporting">
             <div class="design-process-content">
               <h3>Reporting</h3>
               <p>Interactive ML Regression model.</p>
+              <!-- <div id="body2">
+                <script src="js/collision.js"></script>
+              </div> -->
           </div>
         </div>
       </div>
@@ -85,6 +100,5 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
     <script src="js/index.js"></script>
-
 </body>
 </html>
