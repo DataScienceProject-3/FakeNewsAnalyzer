@@ -16,7 +16,7 @@ var force = d3.layout.force()
 
 force.start();
 
-var myCol = d3.select("body2").append("svg")
+var myCol = d3.select("#collision").append("svg")
     .attr("width", width)
     .attr("height", height);
 

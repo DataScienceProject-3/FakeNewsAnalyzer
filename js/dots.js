@@ -3,7 +3,7 @@ var width = 960,
 
 var nodes = [];
 
-var svg = d3.select("#body1").append("svg")
+var svg = d3.select("#dots").append("svg")
     .attr("width", width)
     .attr("height", height);
 
@@ -35,4 +35,4 @@ var interval = setInterval(function() {
 
   if (nodes.push(d) > 300) clearInterval(interval);
   force.start();
-}, 30);
+}, 60);

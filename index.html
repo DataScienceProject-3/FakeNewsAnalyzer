@@ -2,18 +2,21 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>bootstrap tab with onclick step effect </title>
- <!--Load D3 from source website-->
-<script src="http://d3js.org/d3.v3.min.js"></script> 
-<!--Load D3 from local machine-->
-<script type="text/javascript" src="d3.min.js"></script>
-  
+  <title>Fakenews Data Visualization</title>
+  <script src="http://d3js.org/d3.v3.min.js"></script> 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      /*background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  /*Morning Sun*/
+      background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);  /* Over Sun*/
+    }
 
-      <link rel="stylesheet" href="css/style.css">
-
-  
+    .node {
+    stroke-width: 1.5px;
+    }
+  </style>
 </head>
 
 <body>
@@ -24,19 +27,19 @@
         <!-- design process steps--> 
         <!-- Nav tabs -->
         <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
-          <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab"><i class="fa fa-search" aria-hidden="true"></i>
+          <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab"><i class="fa fa-cogs" aria-hidden="true"></i>
             <p>Overview</p>
             </a></li>
-          <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab"><i class="fa fa-send-o" aria-hidden="true"></i>
+          <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab"><i class="fa fa-twitter" aria-hidden="true"></i>
             <p>Data Scrapping</p>
             </a></li>
-          <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab"><i class="fa fa-qrcode" aria-hidden="true"></i>
+          <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab"><i class="fa fa-sitemap" aria-hidden="true"></i>
             <p>Optimization</p>
             </a></li>
-          <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+          <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab"><i class="fa fa-line-chart" aria-hidden="true"></i>
             <p>Content</p>
             </a></li>
-          <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"><i class="fa fa-clipboard" aria-hidden="true"></i>
+          <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"><i class="fa fa-pie-chart" aria-hidden="true"></i>
             <p>Reporting</p>
             </a></li>
         </ul>
@@ -46,7 +49,7 @@
           <div role="tabpanel" class="tab-pane active" id="overview">
             <div class="design-process-content">
               <h3 class="semi-bold">Overview</h3>
-             <p><strong>Machine Learning and Data Visualization</strong></p>
+              <p><strong>Machine Learning and Data Visualization</strong></p>
               <p>This will be the introduction tab of our project.</p>
               <p>Project team:</p>
               <p>* Ling Luo</p>
@@ -54,14 +57,14 @@
               <p>* Indra Merai</p>
               <p>* Chamil De Zoysa</p>
               <p>* Jesse Yu</p>
-             </div>
+            </div>
           </div>
           <div role="tabpanel" class="tab-pane" id="strategy">
             <div class="design-process-content">
               <h3 class="semi-bold">Data Scrapping</h3>
               <p>Interactive ML Regression model.</p>
-              <div id="body">
-                <script src="js/pie.js"></script>
+              <div id="Force">
+                <script src="js/Force.js"></script>
               </div>
             </div>
           </div>
@@ -78,7 +81,7 @@
             <div class="design-process-content">
               <h3 class="semi-bold">Content</h3>
               <p>Interactive ML Regression model.</p>  
-              <div id="body1">
+              <div id="dots">
                 <script src="js/dots.js"></script>
               </div>
             </div>
@@ -87,18 +90,20 @@
             <div class="design-process-content">
               <h3>Reporting</h3>
               <p>Interactive ML Regression model.</p>
-              <!-- <div id="body2">
-                <script src="js/collision.js"></script>
-              </div> -->
+              <div id="body">
+                <!-- <script src="js/pie.js"></script> -->
+                <script src="js/pie.js"></script>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-
-    <script src="js/index.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
