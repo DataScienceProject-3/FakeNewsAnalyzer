@@ -1,0 +1,43 @@
+var nodes = [
+  {id: 1, label: 'Abdelmoumene Djabou', title: 'Country: ' + 'Algeria' + '<br>' + 'Team: ' + 'Club Africain', value: 30},
+  {id: 2, label: 'Abel Aguilar', title: 'Country: ' + 'Colombia' + '<br>' + 'Team: ' + 'Toulouse', value: 24},
+  {id: 3, label: 'Abel Hernández', title: 'Country: ' + 'Uruguay' + '<br>' + 'Team: ' + 'Palermo', value: 30},
+  {id: 4, label: 'Adam Kwarasey', title: 'Country: ' + 'Ghana' + '<br>' + 'Team: ' + 'Strømsgodset', value: 30},
+  {id: 5, label: 'Adam Lallana', title: 'Country: ' + 'England' + '<br>' + 'Team: ' + 'Southampton', value: 26},
+  {id: 6, label: 'Adam Taggart', title: 'Country: ' + 'Australia' + '<br>' + 'Team: ' + 'Newcastle Jets', value: 30},
+  {id: 7, label: 'Admir Mehmedi', title: 'Country: ' + 'Switzerland' + '<br>' + 'Team: ' + 'SC Freiburg', value: 24},
+  {id: 8, label: 'Adnan Januzaj', title: 'Country: ' + 'Belgium' + '<br>' + 'Team: ' + 'Manchester United', value: 34},
+  {id: 9, label: 'Adrián Bone', title: 'Country: ' + 'Ecuador' + '<br>' + 'Team: ' + 'El Nacional', value: 30},
+  {id: 10, label: 'Adrián Ramos', title: 'Country: ' + 'Colombia' + '<br>' + 'Team: ' + 'Hertha BSC', value: 23},
+  {id: 11, label: 'Afriyie Acquah', title: 'Country: ' + 'Ghana' + '<br>' + 'Team: ' + 'Parma', value: 26},
+  {id: 12, label: 'Agustín Orión', title: 'Country: ' + 'Argentina' + '<br>' + 'Team: ' + 'Boca Juniors', value: 30},
+  {id: 13, label: 'Ahmad Alenemeh', title: 'Country: ' + 'Iran' + '<br>' + 'Team: ' + 'Naft Tehran', value: 30},
+  {id: 14, label: 'Ahmed Musa', title: 'Country: ' + 'Nigeria' + '<br>' + 'Team: ' + 'CSKA Moscow', value: 27},
+  {id: 15, label: 'Aïssa Mandi', title: 'Country: ' + 'Algeria' + '<br>' + 'Team: ' + 'Reims', value: 30},
+  {id: 16, label: 'Alan Dzagoev', title: 'Country: ' + 'Russia' + '<br>' + 'Team: ' + 'CSKA Moscow', value: 23},
+  {id: 17, label: 'Alan Pulido', title: 'Country: ' + 'Mexico' + '<br>' + 'Team: ' + 'UANL', value: 30},
+  {id: 18, label: 'Albert Adomah', title: 'Country: ' + 'Ghana' + '<br>' + 'Team: ' + 'Middlesbrough', value: 23},
+  {id: 19, label: 'Alberto Aquilani', title: 'Country: ' + 'Italy' + '<br>' + 'Team: ' + 'Fiorentina', value: 24},
+ 
+
+];
+// create an array with edges
+var edges = [
+  {from: 1, to: 6},
+  {from: 2, to: 8},
+  {from: 3, to: 6},
+  {from: 4, to: 9},
+  {from: 5, to: 1},
+  {from: 6, to: 8},
+  {from: 7, to: 9},
+  {from: 8, to: 3},
+  {from: 9, to: 4},
+  {from: 10, to: 6},
+  {from: 11, to: 9},
+  {from: 12, to: 10},
+  {from: 13, to: 9},
+  {from: 14, to: 13},
+  {from: 15, to: 17},
+  {from: 16, to: 18},
+  {from: 17, to: 6},
+];
