@@ -1,0 +1,24 @@
+/* remove default margin and padding from body */
+body {
+  padding: 5;
+  margin: 5;
+}
+
+h1 {
+  text-align: left;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  color: rgba(62, 131, 91, 0.466);
+}
+
+html, body, #map-container {
+  height: 100%;
+}
+
+#map {
+  height: 500px;
+}
+
+#map1 {
+  height: 500px;
+}
