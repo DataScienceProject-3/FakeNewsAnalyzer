@@ -84,9 +84,18 @@ def get_tweets_by_country(country_name):
     for tweet in tweets:
         print(tweet.text +'---->'+tweet.place.full_name)
 
+def get_tweets_by_id(id):
+    tweet = api.get_status(id)
+    print(tweet.text)
+    print(tweet.user.location)
+    print(tweet)
+
 if __name__ == '__main__':
 
     # Enter the twitter handle of the person concerned
-    get_tweets_by_country(input("Enter Country Name"))
+    #get_tweets_by_country(input("Enter Country Name"))
+
+    get_tweets_by_id(input("Enter tweetid"))
+
 
     #get_all_tweets(input("Enter the twitter handle of the person whose tweets you want to download:- "))

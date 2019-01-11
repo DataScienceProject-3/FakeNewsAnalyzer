@@ -1,0 +1,97 @@
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg " color-on-scroll="500">
+                <div class=" container-fluid  ">
+                    <a class="navbar-brand" href="#pablo"> Dashboard </a>
+                    <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                        <ul class="nav navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link" data-toggle="dropdown">
+                                    <i class="nc-icon nc-palette"></i>
+                                    <span class="d-lg-none">Dashboard</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="nc-icon nc-zoom-split"></i>
+                                    <input type="text" onchange="textchanged(this.value)"/>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card ">
+                                <div class="card-header ">
+                                     <h4 class="card-title" id="profile_title">Real News</h4>
+                                    <p class="card-category">Real News</p> 
+                                </div>
+                                <div class="card-body table-full-width table-responsive">
+                                
+                                <script src="/static/d3.js"></script>
+                                   <script src="/static/d3.layout.cloud.js"></script>
+                                    <script src="/static/d3.wordcloud.js"></script>
+                                    <script src="/static/real.words.js"></script>
+
+                                    <div id='realwordcloud'></div>
+                                    <p>This is a word cloud of the most popular words found in Real News Websites.</p>
+                                
+                                    <script>
+                                    
+                                    
+                                    d3.wordcloud("#realwordcloud")
+                                        .size([700, 400])
+                                        .fill(d3.scale.ordinal().range(["#884400", "#448800", "#888800", "#444400"]))
+                                        .words(realwords)
+                                        .onwordclick(function(d, i) {
+                                        if (d.href) { window.location = d.href; }
+                                        })
+                                        .start();
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card ">
+                                <div class="card-header ">
+                                     <h4 class="card-title" id="profile_title">Fake News</h4>
+                                    <p class="card-category">Fake News</p> 
+                                </div>
+                                <div class="card-body table-full-width table-responsive">
+                                
+                                    <script src="/static/fake.words.js"></script>
+
+                                    <div id='wordcloud'></div>
+                                    <p>This is a word cloud of the most popular words found in Fake News Websites.</p>
+                                
+                                    <script>
+                                    
+                                    
+                                    d3.wordcloud("#wordcloud")
+                                        .size([700, 400])
+                                        .fill(d3.scale.ordinal().range(["#884400", "#448800", "#888800", "#444400"]))
+                                        .words(words)
+                                        .onwordclick(function(d, i) {
+                                        if (d.href) { window.location = d.href; }
+                                        })
+                                        .start();
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+

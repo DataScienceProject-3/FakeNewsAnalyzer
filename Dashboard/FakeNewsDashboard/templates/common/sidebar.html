@@ -1,0 +1,62 @@
+
+        <div class="sidebar" data-image="/static/assets/img/sidebar-5.jpg" data-color="orange">
+        
+            <!--
+                Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+                Tip 2: you can also add an image using data-image tag
+            -->
+
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://www.appseed.us" class="simple-text">
+                        Fake News Dashboard
+                    </a>
+                </div>
+                <ul class="nav">
+                 <li class="{% if path == 'introduction' %} active {% endif %}">
+                        <a class="nav-link" href="/introduction">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>introduction</p>
+                        </a>
+                    </li>
+                    <li class="{% if path == 'dashboard' %} active {% endif %}">
+                        <a class="nav-link" href="/dashboard">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li class="{% if path == 'dashboard' %} active {% endif %}">
+                        <a class="nav-link" href="/dashboard.1">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>React Graph</p>
+                        </a>
+                    </li>
+                    <li class="{% if path == 'wordcloud' %} active {% endif %}">
+                        <a class="nav-link" href="/wordcloud">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Feature Analysis</p>
+                        </a>
+                    </li>
+
+                    <li class="{% if path == 'model' %} active {% endif %}">
+                        <a class="nav-link" href="/model">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Model Performance</p>
+                        </a>
+                    </li>
+
+                     <li class="{% if path == 'map' %} active {% endif %}">
+                        <a class="nav-link" href="/map">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Map</p>
+                        </a>
+                    </li>
+                    
+                   
+                  
+                   
+                </ul>
+            </div>
+        </div>
+
+
