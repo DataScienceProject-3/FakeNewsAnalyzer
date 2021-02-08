@@ -1,0 +1,305 @@
+{
+ "name": "FakeNews",
+ "children": [
+  {
+   "name": "Politics",
+   "children": [
+    {
+     "name": "Chicago",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "NewYork",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    },
+    {
+     "name": "LA",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "DC",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "Seatle",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Entertainment",
+   "children": [
+    {
+     "name": "Chicago",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "LA",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "DC",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "NewYork",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    },
+    {
+     "name": "Seatle",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sports",
+   "children": [
+    {
+     "name": "Chicago",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "LA",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "DC",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "NewYork",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    },
+    {
+     "name": "Seatle",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science",
+   "children": [
+    {
+     "name": "Chicago",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "LA",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "DC",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "NewYork",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    },
+    {
+     "name": "Seatle",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Business",
+   "children": [
+    {
+     "name": "Chicago",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "LA",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "DC",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "NewYork",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    },
+    {
+     "name": "Seatle",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Health",
+   "children": [
+    {
+     "name": "Chicago",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "LA",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "DC",
+     "children": [
+      {"name": "Morning", "size": 3938},
+      {"name": "Afternoon", "size": 3812},
+      {"name": "Evening", "size": 6714},
+      {"name": "Midnight", "size": 743}
+     ]
+    },
+    {
+     "name": "NewYork",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    },
+    {
+     "name": "Seatle",
+     "children": [
+      {"name": "Morning", "size": 3534},
+      {"name": "Afternoon", "size": 5731},
+      {"name": "Evening", "size": 7840},
+      {"name": "Midnight", "size": 5914}
+     ]
+    }
+   ]
+  }
+ ]
+}
